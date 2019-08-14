@@ -1,0 +1,22 @@
+#countdown {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+#buttoncontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(165, 165, 165);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 5px 0px 5px;
+}

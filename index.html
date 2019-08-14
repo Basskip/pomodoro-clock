@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kip's Pomodoro Timer</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <h1 id="countdown">25:00</h1>
+    <div id="buttoncontainer">
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="reset()">Reset</button>
+        <button onclick="pomodoro()"> Pomodoro</button>
+        <button onclick="timeout()">Break</button>
+    </div>
+    <audio id="alert" src="alarm.mp3" preload="auto"></audio>
+  </body>
+  <script src="script.js"></script>
+</html>
